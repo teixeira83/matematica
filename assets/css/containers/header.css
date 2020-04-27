@@ -1,0 +1,45 @@
+.header-banner {
+    
+}
+
+.navbar {
+    background-color: rgb(34, 25, 91);
+    font-weight: bold;
+}
+
+.navbar-list {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15px;
+}
+
+.navbar-list > li {
+    margin: 10px;
+}
+
+.navbar-list > li > a {
+    color: #fff;
+}
+
+.container-banner {
+    width: 100%;
+    height: 350px;
+    background-color: var(--color-first);
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.container-banner > img {
+    width: 100%;
+}
+
+.container-banner > h1{
+    color: #fff;
+    font-size: 38px;
+    margin-left: var(--gap-small);
+}
+
+
+
+
+

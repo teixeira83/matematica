@@ -1,0 +1,38 @@
+.container-materias {
+    background-color: var(--color-second);
+    height: var(--gap-big);
+    margin-top: var(--gap-small);
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.container-materias > i {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.container-materias-geral {
+    background-color: #f5f5f5;
+    margin-left: 20%;
+    margin-right: 20%;
+    visibility: hidden;
+}
+
+.container-materias-geral li {
+    border: 2px groove black;
+    text-align: start;  
+    padding-left: var(--gap-smaller);
+}
+
+.subtitulo-geral {
+    margin-left: var(--gap-small);
+}
+
+.titulo-ensino {
+    margin-top: var(--gap-small);
+    margin-bottom: var(--gap-smaller);
+}

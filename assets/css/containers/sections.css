@@ -1,0 +1,32 @@
+section {
+    margin-top: var(--gap-big);
+    text-align: center;
+}
+
+.container-ensinos {
+    margin-top: var(--gap-small);
+}
+
+.div-ensinos > img {
+    width: 250px;
+    height: 250px;
+}
+
+.quem-sou-eu > img {
+    width: 100%;
+    height: 100%;
+}
+
+.section-ead {
+    background-color: var(--color-third);
+}
+
+.section-ead > img{
+    height: 100%;
+    width: 100%;
+}
+
+.section-ead > p {
+    color: black;
+    margin-bottom: var(--gap-smaller);
+}

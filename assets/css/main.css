@@ -1,0 +1,10 @@
+@import './settings/gaps.css';
+@import './settings/colors.css';
+
+@import './elements/base.css';
+
+@import './components/div-materias.css';
+
+@import './containers/header.css';
+@import './containers/sections.css';
+@import './containers/footer.css';
