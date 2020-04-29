@@ -1,0 +1,33 @@
+.div-quem-sou-eu {
+    display: flex;
+}
+
+.div-quem-sou-eu > img{
+    width: 150px;
+    height: 200px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.specs-quemsou > p{
+    margin-left: var(--gap-medium);
+    margin-top: var(--gap-smaller);
+}
+
+.specs-titulo {
+    display: flex;
+    margin-left: var(--gap-small);
+    margin-top: var(--gap-small);
+}
+
+.quem-sou-eu > h1 {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: var(--gap-small);
+}
+
+.quem-sou-eu {
+    margin-top: 130px;
+    margin-bottom: var(--gap-medium);
+}

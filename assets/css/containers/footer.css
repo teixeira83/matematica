@@ -1,15 +1,41 @@
 .footer {
-    background-color: rgb(34, 25, 91);
     height: 150px;
+    background: url('../../imgs/footer.png');
     display: flex;
-    justify-content: space-between;
+    color: #fff;
     align-items: center;
-    margin-top: var(--gap-medium);
+}
+
+.footer > img{
+    width: 100%;
+    height: 100%;
+}
+
+.quem-sou-footer {
+    width: 50%;
+}
+
+.redes-sociais {
+    width: 50%;
+}
+
+.zap {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin-top: var(--gap-small);
 }
 
 .footer img {
-    width: 45px;
-    height: 45px;
-    margin-right: var(--gap-medium);
-    margin-left: var(--gap-medium);
+    width: 25px;
+    height: 25px;
+}
+
+.footer p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.redes-sociais > img  {
+    margin-top: var(--gap-smaller);
 }
