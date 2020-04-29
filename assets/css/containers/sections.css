@@ -9,6 +9,8 @@
 
 .ensinos {
     margin-top: var(--gap-medium);
+    margin-left: var(--gap-small);
+    margin-right: var(--gap-small);
 }
 .ensinos > h1{
     text-align: center;
@@ -28,13 +30,20 @@
 
 .section-ead-mobile > img{
     width: 170px;
-    height: 220px;
-    margin-top: var(--gap-big);
+    height: 260px;
+    margin-top: var(--gap-smaller);
 }
 
 .section-ead h1 {
     color: #fff;
+    font-size: 22px;
     font-weight: 700;
     font-family: Bangers;
-    padding-top: var(--gap-big);
+    padding-top: var(--gap-medium);
+}
+
+.ead-title {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
 }

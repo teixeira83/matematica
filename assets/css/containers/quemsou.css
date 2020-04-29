@@ -9,8 +9,8 @@
     margin-bottom: auto;
 }
 
-.specs-quemsou > p{
-    margin-left: var(--gap-medium);
+.specs-quemsou > p {
+    margin-left: var(--gap-smaller);
     margin-top: var(--gap-smaller);
 }
 
@@ -18,6 +18,16 @@
     display: flex;
     margin-left: var(--gap-small);
     margin-top: var(--gap-small);
+}
+
+.specs-titulo > h3 {
+    font-weight: 700;
+}
+
+.specs-titulo > i { 
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 5px;
 }
 
 .quem-sou-eu > h1 {
@@ -30,4 +40,6 @@
 .quem-sou-eu {
     margin-top: 130px;
     margin-bottom: var(--gap-medium);
+    margin-left: 5px;
+    margin-right: 5px;
 }
