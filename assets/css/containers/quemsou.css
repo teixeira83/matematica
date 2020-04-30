@@ -2,22 +2,31 @@
     display: flex;
 }
 
-.div-quem-sou-eu > img{
+.div-img-quemsou {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-img-quemsou > img{
     width: 150px;
     height: 200px;
-    margin-top: auto;
-    margin-bottom: auto;
+}
+
+.specs-quemsou {
+    width: 50%;
 }
 
 .specs-quemsou > p {
-    margin-left: var(--gap-smaller);
     margin-top: var(--gap-smaller);
+    margin-bottom: var(--gap-big);
 }
 
 .specs-titulo {
     display: flex;
-    margin-left: var(--gap-small);
     margin-top: var(--gap-small);
+    justify-content: center;
 }
 
 .specs-titulo > h3 {
@@ -42,4 +51,15 @@
     margin-bottom: var(--gap-medium);
     margin-left: 5px;
     margin-right: 5px;
+}
+
+@media (min-width: 600px) {
+    .specs-quemsou > p {
+        margin-right: 20%;
+        margin-top: var(--gap-smaller);
+        margin-bottom: var(--gap-big);
+    }
+    .specs-titulo {
+        justify-content: start;
+    }
 }

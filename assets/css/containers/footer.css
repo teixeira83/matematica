@@ -1,3 +1,7 @@
+:root{
+    --tamanho-span-telefone: 111px;
+}
+
 .footer {
     height: 150px;
     background: url('../../imgs/footer.png');
@@ -38,4 +42,16 @@
 
 .redes-sociais .insta-icon  {
     margin-top: var(--gap-smaller);
+}
+
+@media (min-width: 800px) {
+    .zap {
+        margin-top: var(--gap-small);
+        justify-content: center;
+    }
+    .insta  {
+        display: flex;
+        justify-content: center;
+        margin-left: -111px;
+    }
 }
